@@ -30,7 +30,7 @@ if (event.key === compChoice) {
     guessLeft+=-1;
     textGuessleft.textContent = guessLeft;
     //write the letters next to your guesses
-    textTotguess.textContent = event.key+','+event.key;
+    textTotguess.textContent = event.key;
 }
 
 if (guessLeft === 0){
